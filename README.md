@@ -1,4 +1,10 @@
-# clj-template.klib
+# klib clj-new template
+
+## Usage
+
+```shell
+clojure -Tclj-new create :template dev.kwill/klib :name test-lib/foo
+```
 
 ## Development
 
