@@ -12,6 +12,7 @@
       ["deps.edn" (render "deps.edn" data)]
       ["LICENSE" (render "LICENSE" data)]
       ["tests.edn" (render "tests.edn" data)]
+      ["build.clj" (render "build.clj" data)]
       ["bin/kaocha" (render "kaocha" data)]
       [".circleci/config.yml" (render "config.yml" data)]
       ["src/{{nested-dirs}}.clj" (render "core.clj" data)]
